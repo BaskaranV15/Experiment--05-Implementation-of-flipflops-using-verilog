@@ -113,7 +113,8 @@ Developed by: V.BASKARAN
 RegisterNumber:  212222230020
 */
 ```
-module flipflop1(S,R,Q,Qbar,clk);
+i] SR flipflops
+module flipflops(S,R,Q,Qbar,clk);
 input S,R,clk;
 output reg Q,Qbar;
 initial Q = 0;
@@ -121,7 +122,46 @@ initial Qbar = 1;
 always @(posedge clk)
 begin
 Q = S|((~R)&Q);
-Qbar = R|((~S)&(Qbar));
+Qbar = R|((~S)&(~Qbar));
+end
+endmodule
+
+ii] JK flipflops
+module JK(J,K,Q,Qbar,clk);
+input J,K,clk;
+output reg Q,Qbar;
+initial Q = 0;
+initial Qbar = 1;
+always @(posedge clk)
+begin
+Q = (((~K)&Q)|(J&(~Q)));
+Qbar = ((~J)&Qbar)|((~K)&(~Qbar)); 
+end
+endmodule
+
+iii] D flipflop
+module Dflipflop(D,Q,Qbar,clk);
+input D,clk;
+output reg Q,Qbar;
+initial Q = 0;
+initial Qbar = 1;
+always @(posedge clk)
+begin
+Q = D;
+Qbar = ~D;
+end
+endmodule
+
+iv] T flipflop
+module Tflipflop(T,Q,Qbar,clk);
+input T,clk;
+output reg Q,Qbar;
+initial Q = 0;
+initial Qbar = 1;
+always @(posedge clk)
+begin
+Q = ((T&(~Q))|((~T)&Q));
+Qbar = ((~T)&Qbar)|(T&(~Qbar));
 end
 endmodule
 ```
