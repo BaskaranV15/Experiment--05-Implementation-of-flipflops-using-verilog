@@ -166,9 +166,13 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
-![Screenshot 2023-05-25 105158](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/279a5b60-f6b6-4dcb-8575-5acc9227ba14)
-
-
+![Screenshot 2023-06-01 102047](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/36e559fa-e346-4492-8479-dee9986b1773)
+![Screenshot 2023-06-01 102100](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/431028b6-0d7d-4d4b-a320-823b4e8893fd)
+![Screenshot 2023-06-01 102105](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/43d888a1-8c4b-4413-b344-ecb7dae3fc81)
+![Screenshot 2023-06-01 102113](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/b2f20d7e-e595-4fe3-8bf4-3885e87b3e48)
+![Screenshot 2023-06-01 102120](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/980c048a-9dce-4a16-ab03-3d6ddbda0f1c)
+![Screenshot 2023-06-01 102125](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/a708d9f0-7da9-4ced-ae47-09e7f0257017)
+![Screenshot 2023-06-01 102136](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/e9aa26d3-d8cc-402a-88b4-c24359ea5f79)
 
 
 
@@ -177,7 +181,7 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-![Screenshot 2023-05-25 110345](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/1bcfdae9-29e0-4d4a-8047-713ca72e0106)
+
 
 
 
