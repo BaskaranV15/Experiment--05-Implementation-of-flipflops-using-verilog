@@ -166,6 +166,7 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
+## SRFLIPFLOP
 ![Screenshot 2023-06-08 102827](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/3b33db10-49c2-409e-a73f-b4f8a6acda8a)
 ![Screenshot 2023-06-01 102804](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/ff7fade1-2da6-4a30-9b3e-86eff0d3e02e)
 ![Screenshot 2023-06-01 102100](https://github.com/BaskaranV15/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118703522/431028b6-0d7d-4d4b-a320-823b4e8893fd)
